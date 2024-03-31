@@ -134,7 +134,7 @@ class AuthService
                     'accept' => 'json',
                 ]
             );
-            $token = explode('=', explode('&', $response)[0])[1];
+            $token = explode('=', explode('&', $response)[0])[1]; //access_token=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&scope=&token_type=bearer
             $user = Socialite::driver(AuthProviderCase::GitHub->value)
                 ->stateless()
                 ->userFromToken($token);
