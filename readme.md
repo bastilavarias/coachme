@@ -1,6 +1,9 @@
 # CoachMe
 A scheduling website to connect students and instructors.
 
+## Notice!!!
+I have to drop this project server because I need the money to spin up my next microservices project!
+
 ## Structure
 
 | Codebase              |      Description          |
