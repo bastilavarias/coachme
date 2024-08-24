@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/api-service/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/api-service/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/api-service/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/api-service/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/api-service/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/api-service/tests/Unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/guzzlehttp/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laravel/pint" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laravel/prompts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laravel/socialite" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/flysystem-local" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/oauth1-client" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/spatie/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/spatie/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/spatie/laravel-ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/bensampo/laravel-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laminas/laminas-code" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/defuse/php-encryption" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/laravel/passport" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/event" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/oauth2-server" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/uri" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/league/uri-interfaces" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/nyholm/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/api-service/vendor/symfony/psr-http-message-bridge" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

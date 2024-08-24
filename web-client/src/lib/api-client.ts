@@ -19,9 +19,6 @@ const baseURL = import.meta.env.VITE_BASE_API_URL;
 
 const api = ky.extend({
     timeout: false,
-    headers: {
-        'Access-Control-Allow-Origin': '*',
-    },
     hooks: {
         beforeRequest: [
             async (request) => {

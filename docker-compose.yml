@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+    coachme_server:
+        image: nginx:alpine
+        container_name: coachme_server
+        restart: unless-stopped
+        tty: true
+        ports:
+            - "3001:3001"
+        depends_on:
+            - coachme_database
+            - coachme_service
+        volumes:
+            - ./api-service:/var/www/coachme-service
+            - ./.docker/nginx/conf/local:/etc/nginx/conf.d
+            - ./.docker/nginx/log:/var/log/nginx
+        networks:
+            - network
+
+    coachme_service:
+        build:
+            context: ./api-service
+            dockerfile: Dockerfile
+        container_name: coachme_service
+        restart: unless-stopped
+        tty: true
+        env_file:
+            - ./api-service/.env
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./api-service:/var/www/coachme-service
+            - ./.docker/php/local.ini:/usr/local/etc/php/local.ini
+        networks:
+            - network
+            - nginx_proxy_manager_network
+
+    coachme_database:
+        image: mysql:8
+        container_name: coachme_database
+        restart: unless-stopped
+        tty: true
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+        volumes:
+            - database-volume:/var/lib/mysql/
+        networks:
+            - network
+
+networks:
+    network:
+        driver: bridge
+    nginx_proxy_manager_network:
+        external: true
+
+volumes:
+    database-volume:
