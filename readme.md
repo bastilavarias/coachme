@@ -20,3 +20,5 @@ Make sure to create 0Auth App in GitHub and paste to your web-client/.env (Follo
 
 ## Follow me!
 - [YouTube](https://www.youtube.com/channel/UCOhqyKr2hkAINWLgFOoV2tQ)▶️
+
+<!-- GitAds-Verify: X98MYVHEP6OOA323HLRXWQN6Q1W4TFC2 -->
